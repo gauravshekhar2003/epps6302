@@ -1,3 +1,6 @@
+# Assignment 2, FA22, EPPS 6302
+# Word Cloud for Winston Churchill's speech "The Finest Hour"
+
 # Data Method: Text mining
 # File: textmining1.R
 # Theme: Download text data from web and create wordcloud
@@ -56,6 +59,3 @@ set.seed(1234)
 wordcloud(cloudFrame$word,cloudFrame$freq)
 wordcloud(names(wordCounts),wordCounts, min.freq=3,random.order=FALSE, max.words=500,scale=c(3,.5), rot.per=0.35,colors=brewer.pal(8,"Dark2"))
 
-
-# Run the program on Winston Churchill's Finest Hour speech?
-# http://www.historyplace.com/speeches/churchill-hour.htm
