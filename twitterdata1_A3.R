@@ -18,11 +18,11 @@ library(tidytags)
 
 require(rtweet)
 token <- rtweet::create_token(
-  app = "EPPS6302_GXS150130",
-  consumer_key <- "PtgL1MDksAWzLKKgnZ3Pi1VEu",
-  consumer_secret <- "sEkPLYXmvSje3rSDpegZVYtYQxSjWUISykGEz3uRgUDANo3bXj",
-  access_token <- "37983275-dymeSDxFr5Dtm0aarzLBnSZcwRU9D8Rb0SmrfHkDX",
-  access_secret <- "utVST23HYVOHLPCVwn9OCR3MbabSeUL4stfhV27mHv5jV")
+  app = "",
+  consumer_key <- "",
+  consumer_secret <- "",
+  access_token <- "",
+  access_secret <- "")
 
 ## Check token
 
